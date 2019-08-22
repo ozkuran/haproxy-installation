@@ -5,6 +5,11 @@ This is a simple installation script for different versions of HAProxy. Initiall
 ## Current versions
 
 #### CentOS 7
+- 2.0.0: https://raw.githubusercontent.com/ozkuran/haproxy-installation/develop/2.0.0/ha_install.sh
+- 2.0.1: https://raw.githubusercontent.com/ozkuran/haproxy-installation/develop/2.0.1/ha_install.sh
+- 2.0.2: https://raw.githubusercontent.com/ozkuran/haproxy-installation/develop/2.0.2/ha_install.sh
+- 2.0.3: https://raw.githubusercontent.com/ozkuran/haproxy-installation/develop/2.0.3/ha_install.sh
+- 2.0.4: https://raw.githubusercontent.com/ozkuran/haproxy-installation/develop/2.0.4/ha_install.sh
 - 2.0.5: https://raw.githubusercontent.com/ozkuran/haproxy-installation/develop/2.0.5/ha_install.sh
 
 
@@ -48,5 +53,5 @@ Save and quit document. Then restart HAProxy.
 Check status of HAProxy.
 
 ```
-    sudo systemctl restart haproxy
+    sudo systemctl status haproxy
 ```
