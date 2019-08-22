@@ -23,7 +23,6 @@ sudo chmod +x ha_install.sh
 sudo ./ha_install.sh
 ```
 
-
 ## Post-Installation steps
 
 #### 1. Change username and password of 
