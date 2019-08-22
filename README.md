@@ -22,3 +22,31 @@ sudo chmod +x ha_install.sh
 ```
 sudo ./ha_install.sh
 ```
+
+## Post-Installation steps
+
+#### 1. Change username and password of 
+Load haproxy.cfg file.
+```
+sudo nano /etc/haproxy/haproxy.conf
+```
+Find line with contents of:
+```
+    stats auth admin:password
+```
+Change contents of line with username and password you like.
+```
+    stats auth [YOUR_USERNAME]:[YOUR_PASSWORD]
+```
+
+Save and quit document. Then restart HAProxy.
+
+```
+    sudo systemctl restart haproxy
+```
+
+Check status of HAProxy.
+
+```
+    sudo systemctl restart haproxy
+```
