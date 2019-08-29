@@ -1,6 +1,6 @@
 # [HAProxy](http://www.haproxy.org/ "HAProxy Homepage") Install Script
 
-Version 0.0.1
+### v0.0.2
 
 This is a simple installation script for different versions of HAProxy. Initially created for yum based linux distros and tested for CentOS 7.
 
